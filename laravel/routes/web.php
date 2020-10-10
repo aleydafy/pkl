@@ -21,3 +21,4 @@ Route::get('/profile', [AnimalController::class, 'profile']);
 Route::get('/berita', [AnimalController::class, 'berita']);
 Route::get('/galeri', [AnimalController::class, 'galeri']);
 Route::get('/kontak', [AnimalController::class, 'kontak']);
+Route::get('/admin', [AnimalController::class, 'admin']);

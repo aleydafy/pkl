@@ -25,4 +25,8 @@ class AnimalController extends Controller
     public function kontak(){
         return view('kontak');
     }
+
+    public function admin(){
+        return view('admin');
+    }
 }
