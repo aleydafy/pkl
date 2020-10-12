@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Wild Nature a Animals and Pets Category Flat Bootstarp Resposive Website Template | About :: w3layouts</title>
+<title>Berita | Tropis Animals</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -38,152 +38,139 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 <body>
 <!-- header -->
-	<div class="header">
-	<div class="container">
-		<div class="header-nav">
-			<nav class="navbar navbar-default">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-					<div class="logo">
-						<a class="navbar-brand" href="index.html">Tropis <span>Animals</span></a>
-						<div class="leaf">
-							<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
-						</div>
+<div class="banner2">
+		<nav class="navbar navbar-default">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+				<div class="logo">
+					<a class="navbar-brand" href="/">Tropis <span>Animals</span></a>
+					<div class="leaf">
+						<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
 					</div>
 				</div>
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-				 <ul class="nav navbar-nav">
-               <li><a href="/">Beranda</a></li>
-					<li><a href="/profile">Profil</a></li>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+			 	<ul class="nav navbar-nav">
+					<li><a href="/">Beranda</a></li>
+					<li><a href="/profile">Tentang</a></li>
 					<li class="active"><a href="/berita">Berita</a></li>
 					<li><a href="/galeri">Galeri</a></li>
 					<li><a href="/kontak">Kontak</a></li>
-				  </ul>
-				</div><!-- /.navbar-collapse -->
-			</nav>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+			<div class="banner-info">
+				<h1>Berita</h1>
+			</div>
+		</nav>
+</div>
+<!-- //header -->
+<!-- boostrap-icons -->
+<div class="boostrap-icons">
+		<div class="container">
+		<div class="col-md-6 boostrap-icons-right"><br>
+				<img src="assets/img/david-clode-AtCChdVhAmA-unsplash.png" alt=" " class="img-responsive" style="width: 450px;"/>
+			</div>
+			<div class="col-md-6 boostrap-icons-left">
+				<div class="boostrap-icons-grids">
+					<div class="col-xs-10 boostrap-icons-grid">
+						<h2>10 Hewan Herbivora Yang Berbahaya</h2>
+						<p class="tentang">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
+						a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but 
+						also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with 
+						the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+						like Aldus PageMaker including versions of Lorem Ipsum.
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+					<br><br>
+					<div class="donates1">
+						<a href="/profile">Selanjutnya</a>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
 		</div>
 	</div>
-	</div>
-<!-- //header -->
-<!-- services -->
-	<div class="services">
-		<div class="container">
-			<div class="services-grid">
-				<h3>What We Offer</h3>
-				<div class="services-grd">
-					<div class="col-md-6 services-grd1">
-						<div class="col-xs-4 services-grd1-left">
-							<img src="images/4.png" alt=" " class="img-responsive" />
-						</div>
-						<div class="col-xs-8 services-grd1-right">
-							<h4>At vero eos et accusamus et iusto repellendus</h4>
-							<p> Nam libero tempore, cum soluta nobis est eligendi optio 
-								cumque nihil impedit quo minus id quod maxime placeat facere 
-								possimus.</p>
-						</div>
-						<div class="clearfix"> </div>
+<!-- //boostrap-icons -->
+<!-- boostrap-icons -->
+<div class="boostrap-icons">
+	<div class="container">
+		<div class="boostrap-icons-grids">
+			<div class="col-xs-10 boostrap-icons-grid">
+				<h2>Berita Lainnya</h2><br>
+			</div><br>
+			<div class="news-grids">
+				<div class="col-md-4 news-grid">
+					<div class="news-grid1">
+						<a class="mask" href="images/4.jpg"><img src="assets/img/rick-l-037fCBgZB10-unsplash.png" alt=" " class="img-responsive" style="width: 450px;"/></a>
 					</div>
-					<div class="col-md-6 services-grd1">
-						<div class="col-xs-4 services-grd1-left">
-							<img src="images/5.png" alt=" " class="img-responsive" />
-						</div>
-						<div class="col-xs-8 services-grd1-right">
-							<h4>At vero eos et accusamus et iusto repellendus</h4>
-							<p> Nam libero tempore, cum soluta nobis est eligendi optio 
-								cumque nihil impedit quo minus id quod maxime placeat facere 
-								possimus.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="clearfix"> </div>
+						<h4>Apa Kabar Kebun Binatang Saat Wabah Covid 19?</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and 
+						typesetting industry. Lorem Ipsum has been the industry's 
+						standard dummy text ever since...</p>
 				</div>
-				<div class="services-grd">
-					<div class="col-md-6 services-grd1">
-						<div class="col-xs-4 services-grd1-left">
-							<img src="images/7.png" alt=" " class="img-responsive" />
-						</div>
-						<div class="col-xs-8 services-grd1-right">
-							<h4>At vero eos et accusamus et iusto repellendus</h4>
-							<p> Nam libero tempore, cum soluta nobis est eligendi optio 
-								cumque nihil impedit quo minus id quod maxime placeat facere 
-								possimus.</p>
-						</div>
-						<div class="clearfix"> </div>
+				<div class="col-md-4 news-grid">
+					<div class="news-grid1">
+						<a class="mask" href="images/5.jpg"><img src="assets/img/hans-veth-o33FMDaXJS8-unsplash.png" alt=" " class="img-responsive" /></a>
 					</div>
-					<div class="col-md-6 services-grd1">
-						<div class="col-xs-4 services-grd1-left">
-							<img src="images/6.png" alt=" " class="img-responsive" />
-						</div>
-						<div class="col-xs-8 services-grd1-right">
-							<h4>At vero eos et accusamus et iusto repellendus</h4>
-							<p> Nam libero tempore, cum soluta nobis est eligendi optio 
-								cumque nihil impedit quo minus id quod maxime placeat facere 
-								possimus.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="clearfix"> </div>
+						<h4>Anugerah dari Hutan Indonesia</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and 
+						typesetting industry. Lorem Ipsum has been the industry's 
+						standard dummy text ever since...</p>
 				</div>
+				<div class="col-md-4 news-grid">
+					<div class="news-grid1">
+						<a class="mask" href="images/6.jpg"><img src="assets/img/ronald-gijezen-7h06P9UKhYY-unsplash.png" alt=" " class="img-responsive" /></a>
+					</div>
+						<h4>10 Hewan Herbivora Yang Berbahaya</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and 
+						typesetting industry. Lorem Ipsum has been the industry's 
+						standard dummy text ever since...</p>
+				</div>
+			</div>
+			<div class="news-grids">
+				<div class="col-md-4 news-grid"><br>
+					<div class="news-grid1">
+						<a class="mask" href="images/4.jpg"><img src="assets/img/smit-patel-dGMcpbzcq1I-unsplash.png" alt=" " class="img-responsive"/></a>
+					</div>
+						<h4>4 Penyakit yang Ditularkan Hewan ke Manusia</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and 
+						typesetting industry. Lorem Ipsum has been the industry's 
+						standard dummy text ever since...</p>
+				</div>
+				<div class="col-md-4 news-grid"><br>
+					<div class="news-grid1">
+						<a class="mask" href="images/5.jpg"><img src="assets/img/TERUMBU-KARANG (1).png" alt=" " class="img-responsive" style="width: 400px; height: 170px;"/></a>
+					</div>
+						<h4>Terumbu Karang:Pengertian, Jenis, Sebaran, dan Masalah</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and 
+						typesetting industry. Lorem Ipsum has been the industry's 
+						standard dummy text ever since...</p>
+				</div>
+				<div class="col-md-4 news-grid"><br>
+					<div class="news-grid1">
+						<a class="mask" href="images/6.jpg"><img src="assets/img/vladimir-kudinov-vmlJcey6HEU-unsplash.png" alt=" " class="img-responsive" style="width: 400px; height: 170px;"/></a>
+					</div>
+						<h4>Ternyata, Tanduk Rusa Berasal dari Sel Kanker Tulang</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and 
+						typesetting industry. Lorem Ipsum has been the industry's 
+						standard dummy text ever since...</p>
+				</div><br>
 			</div>
 		</div>
 	</div>
-	<div class="services-overview">
-		<div class="container">
-			<h3>Services Overview</h3>
-				<div class="services-overview-grids">
-					<div class="col-md-4 services-overview-grid">
-						<div class="services-overview-grd">
-							<a class="mask" href="images/11.jpg">
-								<img src="images/11.jpg" alt=" " class="img-responsive" />
-							</a>
-							<div class="services-overview-gd">
-								<h4>Itaque earum rerum hic tenetur labore et</h4>
-								<p>Neque porro quisquam est, qui dolorem ipsum quia dolor 
-									sit amet, consectetur, adipisci velit, sed quia non numquam 
-									eius modi tempora.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 services-overview-grid">
-						<div class="services-overview-grd">
-							<a class="mask" href="images/12.jpg">
-								<img src="images/12.jpg" alt=" " class="img-responsive" />
-							</a>
-							<div class="services-overview-gd">
-								<h4>Itaque earum rerum hic tenetur labore et</h4>
-								<p>Neque porro quisquam est, qui dolorem ipsum quia dolor 
-									sit amet, consectetur, adipisci velit, sed quia non numquam 
-									eius modi tempora.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 services-overview-grid">
-						<div class="services-overview-grd">
-							<a class="mask" href="images/13.jpg">
-								<img src="images/13.jpg" alt=" " class="img-responsive" />
-							</a>
-							<div class="services-overview-gd">
-								<h4>Itaque earum rerum hic tenetur labore et</h4>
-								<p>Neque porro quisquam est, qui dolorem ipsum quia dolor 
-									sit amet, consectetur, adipisci velit, sed quia non numquam 
-									eius modi tempora.</p>
-							</div>
-						</div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-		</div>
-	</div>
-<!-- //services -->
+</div>
+<!-- //boostrap-icons -->
 <!-- footer -->
+<div class="copy">
 	<div class="footer">
 		<div class="footer-grids">
 		  <div class="container">
@@ -232,9 +219,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 </div>
 		</div>
 	</div>
-	<div class="copy">
 		 <p>Copyright © 2015 Wild Nature. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
-	</div>
+</div>
 <!-- //footer -->
 <!-- for bootstrap working -->
 		<script src="assets/assets2/js/bootstrap.js"> </script>

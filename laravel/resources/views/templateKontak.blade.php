@@ -52,7 +52,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 				 <ul class="nav navbar-nav">
              <li><a href="/">Beranda</a></li>
-					<li><a href="/profile">Profil</a></li>
+					<li><a href="/profile">Tentang</a></li>
 					<li><a href="/berita">Berita</a></li>
 					<li><a href="/galeri">Galeri</a></li>
 					<li class="active"><a href="/kontak">Kontak</a></li>

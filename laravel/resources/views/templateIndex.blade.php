@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Animal Tropis in The World</title>
+<title>Tropis Animals in The World</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -37,44 +37,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 	
 <body>
-<!-- header -->
-	<div class="header">
-	<div class="container">
-		<div class="header-nav">
-			<nav class="navbar navbar-default">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-					<div class="logo">
-						<a class="navbar-brand" href="index.html">Tropis <span>Animals</span></a>
-						<div class="leaf">
-							<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
-						</div>
+<!-- banner -->
+	<div class="banner">
+		<nav class="navbar navbar-default">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+				<div class="logo">
+					<a class="navbar-brand" href="/">Tropis <span>Animals</span></a>
+					<div class="leaf">
+						<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
 					</div>
 				</div>
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-				 <ul class="nav navbar-nav">
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+			 	<ul class="nav navbar-nav">
 					<li class="active"><a href="/">Beranda</a></li>
-					<li><a href="/profile">Profil</a></li>
+					<li><a href="/profile">Tentang</a></li>
 					<li><a href="/berita">Berita</a></li>
 					<li><a href="/galeri">Galeri</a></li>
 					<li><a href="/kontak">Kontak</a></li>
-				  </ul>
-				</div><!-- /.navbar-collapse -->
-			</nav>
-		</div>
-	</div>
-	</div>
-<!-- //header -->
-<!-- banner -->
-	<div class="banner">
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</nav>
 		<div class="container">
 			<section class="slider">
 				<div class="flexslider">
@@ -119,83 +110,54 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				});
 			  </script>
 	<!--End-slider-script-->
-			<div class="donate">
-				<a href="#">recusandae itaque earum rerum</a>
-			</div>
 		</div>
 	</div>
 <!-- //banner -->
-<!-- banner-bottom -->
-	<div class="banner-bottom">
+<!-- boostrap-icons -->
+<div class="boostrap-icons">
 		<div class="container">
-			<h3>Selamat Datang di Website Kami!</h3>
-			<div class="welcome">
-				<img src="images/1.jpg" alt=" " class="img-responsive" />
-				<h4> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil 
-					impedit quo minus id quod maxime placeat facere possimus</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-					consectetur, adipisci velit, sed quia non numquam eius modi tempora 
-					incidunt ut labore et dolore magnam aliquam  quod maxime 
-					placeat facere possimusquaerat voluptatem.</p>
-				<div class="more">
-					<a href="#" class="hvr-bounce-to-bottom">Read More</a>
+			<div class="col-md-6 boostrap-icons-left">
+				<div class="boostrap-icons-grids">
+					<div class="col-xs-10 boostrap-icons-grid">
+						<h3>TENTANG KAMI</h3>
+						<h2> Membangun Komunitas Hewan</h2>
+						<p class="tentang">Hewan Tropis merupakan hewan yang memiliki keunikannya tersendiri.
+						Hutan hujan tropis saat ini hanya memiliki luas yang terbilang kecil di permukaan bumi. Luas 
+						hutan ini hanya meliputi 6% dari luas daratan yang ada di bumi. Meski terbilang cukup kecil, 
+						hutan hujan ini menyimpan lebih dari setengah jumlah spesies hewan dan tumbuhan yang ada di dunia.
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+					<br><br>
+					<div class="donates">
+						<a href="/profile">Selanjutnya</a>
+					</div>
 				</div>
 			</div>
+			<div class="col-md-6 boostrap-icons-right">
+				<img src="assets/img/alessandro-desantis-9_9hzZVjV8s-unsplash.png" alt=" " class="img-responsive" style="width: 450px;"/>
+			</div>
+			<div class="clearfix"> </div>
 		</div>
 	</div>
-<!-- //banner-bottom -->
+<!-- //boostrap-icons -->
 <!-- events -->
 	<div class="events">
 		<div class="container">
-			<h3>Events</h3>
-			<p class="para">Ut aut reiciendis voluptatibus maiores alias
-				consequatur aut perferendis doloribus asperiores repellat incidunt ut labore et dolore magnam aliquam  quod maxime 
-					placeat facere possimusquaerat voluptatem</p>
+			<h3>Jenis Hewan Tropis</h3>
+			<p class="para">Hewan pada hutan tropis memiliki beberapa jenis.</p>
 			<div class="events-grids">
 				<div class="col-md-4 events-grid">
 					<div class="col-xs-3 events-grid-left">
 						<span> </span>
 					</div>
 					<div class="col-xs-9 events-grid-right">
-						<h4>Itaque earum rerum hic tenetur doloribus</h4>
-						<p>Ut aut reiciendis voluptatibus maiores alias
-							consequatur aut perferendis doloribus asperiores repellat.</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-4 events-grid">
-					<div class="col-xs-3 events-grid-left1">
-						<span> </span>
-					</div>
-					<div class="col-xs-9 events-grid-right">
-						<h4>Itaque earum rerum hic tenetur doloribus</h4>
-						<p>Ut aut reiciendis voluptatibus maiores alias
-							consequatur aut perferendis doloribus asperiores repellat.</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-4 events-grid">
-					<div class="col-xs-3 events-grid-left2">
-						<span> </span>
-					</div>
-					<div class="col-xs-9 events-grid-right">
-						<h4>Itaque earum rerum hic tenetur doloribus</h4>
-						<p>Ut aut reiciendis voluptatibus maiores alias
-							consequatur aut perferendis doloribus asperiores repellat.</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="events-grids">
-				<div class="col-md-4 events-grid">
-					<div class="col-xs-3 events-grid-left3">
-						<span> </span>
-					</div>
-					<div class="col-xs-9 events-grid-right">
-						<h4>Itaque earum rerum hic tenetur doloribus</h4>
-						<p>Ut aut reiciendis voluptatibus maiores alias
-							consequatur aut perferendis doloribus asperiores repellat.</p>
+						<h4>Wilayah Barat</h4>
+						<p>Hutan hujan tropis di bagian barat meliputi wilayah Sumatera, Kalimantan, Jawa, Madura, serta pulau-pulau disekitarnya.
+							Fauna yang hidup di kawasan ini disebut dengan fauna asiatis, seperti harimau, gajah, banteng, badak, dan sebagainya.
+							Satwa tipe aisatis memiliki ciri dan pengelompokkan yang sebagian besarnya adalah jenis mamalia, hewan berukuran besar,
+							dan berkaki empat.
+						</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -204,9 +166,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span> </span>
 					</div>
 					<div class="col-xs-9 events-grid-right">
-						<h4>Itaque earum rerum hic tenetur doloribus</h4>
-						<p>Ut aut reiciendis voluptatibus maiores alias
-							consequatur aut perferendis doloribus asperiores repellat.</p>
+						<h4>Wilayah Tengah</h4>
+						<p>Di kawasan tengah, hutan di Indonesia disebut sebagai wilayah peralihan meliputi Sulawesi, Nusa Tenggara dan Maluku. 
+							Biodiversitas hutan hujan tropis di kawasan ini merupakan perpaduan antara wilayah barat dan timur. Salah satu satwa 
+							endemik di zona peralihan adalah Anoa (Bubalus quarlesi). Menurut lembaga konservasi IUCN, anoa merupakan hewan yang 
+							masuk kategori red list atau terancam punah. Di alam liar populasi anoa hanya tersisa 2500 ekor. 
+							Sedangkan CITES memasukkan anoa ke dalam apendiks I yang statusnya berada dalam pengawasan ketat.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -215,45 +180,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span> </span>
 					</div>
 					<div class="col-xs-9 events-grid-right">
-						<h4>Itaque earum rerum hic tenetur doloribus</h4>
-						<p>Ut aut reiciendis voluptatibus maiores alias
-							consequatur aut perferendis doloribus asperiores repellat.</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="events-grids">
-				<div class="col-md-4 events-grid">
-					<div class="col-xs-3 events-grid-left6">
-						<span> </span>
-					</div>
-					<div class="col-xs-9 events-grid-right">
-						<h4>Itaque earum rerum hic tenetur doloribus</h4>
-						<p>Ut aut reiciendis voluptatibus maiores alias
-							consequatur aut perferendis doloribus asperiores repellat.</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-4 events-grid">
-					<div class="col-xs-3 events-grid-left7">
-						<span> </span>
-					</div>
-					<div class="col-xs-9 events-grid-right">
-						<h4>Itaque earum rerum hic tenetur doloribus</h4>
-						<p>Ut aut reiciendis voluptatibus maiores alias
-							consequatur aut perferendis doloribus asperiores repellat.</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-4 events-grid">
-					<div class="col-xs-3 events-grid-left8">
-						<span> </span>
-					</div>
-					<div class="col-xs-9 events-grid-right">
-						<h4>Itaque earum rerum hic tenetur doloribus</h4>
-						<p>Ut aut reiciendis voluptatibus maiores alias
-							consequatur aut perferendis doloribus asperiores repellat.</p>
+						<h4>Wilayah Timur</h4>
+						<p>Hutan wilayah timur Indonesia memiliki keanekaragaman hayati yang disebut dengan tipe australis. 
+							Hutan ini meliputi wilayah Maluku dan Papua. Disebut tipe australis karena letaknya 
+							berbatasan dengan Australia dan memiliki ciri serta kemiripan dengan flora dan fauna ngeri kanguru tersebut.
+							Jika diamati, satwa tipe australis umumnya berukuran kecil, ada yang berkantung, serta terdiri dari burung-burung 
+							bersyapa indah, salah satunya adalah burung cenderawasih asli Papua.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -263,101 +195,92 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 <!-- //events -->
 <!-- boostrap-icons -->
-	<div class="boostrap-icons">
-		<div class="container">
-			<div class="col-md-6 boostrap-icons-left">
-				<div class="boostrap-icons-grids">
-					<div class="col-xs-2 boostrap-icons-grid her">
-						<div class="heart">
-							<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
-						</div>
-					</div>
-					<div class="col-xs-10 boostrap-icons-grid">
-						<h3>vel eum iure reprehenderit voluptate
-							nihil</h3>
-						<p> Neque porro quisquam est, qui dolorem ipsum quia dolor 
-							sit amet, consectetur, adipisci velit  consequatur 
-							aut perferendis doloribus asperiores.</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="boostrap-icons-grids">
-					<div class="col-xs-2 boostrap-icons-grid her">
-						<div class="heart">
-							<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-						</div>
-					</div>
-					<div class="col-xs-10 boostrap-icons-grid">
-						<h3>vel eum iure reprehenderit voluptate
-							nihil</h3>
-						<p> Neque porro quisquam est, qui dolorem ipsum quia dolor 
-							sit amet, consectetur, adipisci velit  consequatur aut perferendis doloribus.</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="boostrap-icons-grids">
-					<div class="col-xs-2 boostrap-icons-grid her">
-						<div class="heart">
-							<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-						</div>
-					</div>
-					<div class="col-xs-10 boostrap-icons-grid">
-						<h3>vel eum iure reprehenderit voluptate
-							nihil</h3>
-						<p> Neque porro quisquam est, qui dolorem ipsum quia dolor 
-							sit amet, consectetur, adipisci velit.</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-			<div class="col-md-6 boostrap-icons-right">
-				<img src="images/2.jpg" alt=" " class="img-responsive" />
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-<!-- //boostrap-icons -->
-<!-- news -->
-	<div class="news">
-		<div class="container">
-			<h3>latest news</h3>
+<div class="boostrap-icons">
+	<div class="container">
+		<div class="boostrap-icons-grids">
+			<div class="col-xs-10 boostrap-icons-grid">
+				<h3>BERITA</h3>
+				<h2>Baca Berita Terbaru Kami <br> Dalam Tropis Animals</h2><br>
+			</div><br>
 			<div class="news-grids">
 				<div class="col-md-4 news-grid">
 					<div class="news-grid1">
-						<a class="mask" href="images/4.jpg"><img src="images/4.jpg" alt=" " class="img-responsive" /></a>
+						<a class="mask" href="images/4.jpg"><img src="assets/img/rick-l-037fCBgZB10-unsplash.png" alt=" " class="img-responsive" style="width: 450px;"/></a>
 					</div>
-						<h4>exercitationem ullam corporis</h4>
+						<h4>Apa Kabar Kebun Binatang Saat Wabah Covid 19?</h4>
 						<p>Lorem Ipsum is simply dummy text of the printing and 
 						typesetting industry. Lorem Ipsum has been the industry's 
 						standard dummy text ever since...</p>
 				</div>
 				<div class="col-md-4 news-grid">
 					<div class="news-grid1">
-						<a class="mask" href="images/5.jpg"><img src="images/5.jpg" alt=" " class="img-responsive" /></a>
+						<a class="mask" href="images/5.jpg"><img src="assets/img/hans-veth-o33FMDaXJS8-unsplash.png" alt=" " class="img-responsive" /></a>
 					</div>
-						<h4>suscipit laboriosam tenetur</h4>
+						<h4>Anugerah dari Hutan Indonesia</h4>
 						<p>Lorem Ipsum is simply dummy text of the printing and 
 						typesetting industry. Lorem Ipsum has been the industry's 
 						standard dummy text ever since...</p>
 				</div>
 				<div class="col-md-4 news-grid">
 					<div class="news-grid1">
-						<a class="mask" href="images/6.jpg"><img src="images/6.jpg" alt=" " class="img-responsive" /></a>
+						<a class="mask" href="images/6.jpg"><img src="assets/img/ronald-gijezen-7h06P9UKhYY-unsplash.png" alt=" " class="img-responsive" /></a>
 					</div>
-						<h4>perferendis doloribus asperiores</h4>
+						<h4>10 Hewan Herbivora Yang Berbahaya</h4>
 						<p>Lorem Ipsum is simply dummy text of the printing and 
 						typesetting industry. Lorem Ipsum has been the industry's 
 						standard dummy text ever since...</p>
 				</div>
-				<div class="clearfix"> </div>
 			</div>
-			<div class="more all">
-				<a href="#" class="hvr-bounce-to-bottom">Read all news</a>
+			<div class="news-grids">
+				<div class="col-md-4 news-grid"><br>
+					<div class="news-grid1">
+						<a class="mask" href="images/4.jpg"><img src="assets/img/smit-patel-dGMcpbzcq1I-unsplash.png" alt=" " class="img-responsive"/></a>
+					</div>
+						<h4>4 Penyakit yang Ditularkan Hewan ke Manusia</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and 
+						typesetting industry. Lorem Ipsum has been the industry's 
+						standard dummy text ever since...</p>
+				</div>
+				<div class="col-md-4 news-grid"><br>
+					<div class="news-grid1">
+						<a class="mask" href="images/5.jpg"><img src="assets/img/TERUMBU-KARANG (1).png" alt=" " class="img-responsive" style="width: 400px; height: 170px;"/></a>
+					</div>
+						<h4>Terumbu Karang:Pengertian, Jenis, Sebaran, dan Masalah</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and 
+						typesetting industry. Lorem Ipsum has been the industry's 
+						standard dummy text ever since...</p>
+				</div>
+				<div class="col-md-4 news-grid"><br>
+					<div class="news-grid1">
+						<a class="mask" href="images/6.jpg"><img src="assets/img/vladimir-kudinov-vmlJcey6HEU-unsplash.png" alt=" " class="img-responsive" style="width: 400px; height: 170px;"/></a>
+					</div>
+						<h4>Ternyata, Tanduk Rusa Berasal dari Sel Kanker Tulang</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and 
+						typesetting industry. Lorem Ipsum has been the industry's 
+						standard dummy text ever since...</p>
+				</div><br>
 			</div>
 		</div>
 	</div>
-<!-- //news -->
+</div>
+<!-- //boostrap-icons -->
+<!-- boostrap-icons -->
+<div class="boostrap-icons">
+		<div class="container">
+			<div class="col-md-6 boostrap-icons-left">
+				<div class="boostrap-icons-grids">
+					<div class="col-xs-10 boostrap-icons-grid">
+						<h3>GALERI</h3>
+						<h2>Lihat Lebih Banyak Hewan Tropis Pada Galeri Kami</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- //boostrap-icons -->
 <!-- footer -->
+
+<div class="copy">
 	<div class="footer">
 		<div class="footer-grids">
 		  <div class="container">
@@ -406,9 +329,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 </div>
 		</div>
 	</div>
-	<div class="copy">
 		 <p>Copyright © 2015 Wild Nature. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
-	</div>
+</div>
 <!-- //footer -->
 <!-- for bootstrap working -->
 		<script src="assets/assets2/js/bootstrap.js"> </script>

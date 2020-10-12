@@ -28,220 +28,89 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 <body>
 <!-- header -->
-	<div class="header">
-	<div class="container">
-		<div class="header-nav">
-			<nav class="navbar navbar-default">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-					<div class="logo">
-						<a class="navbar-brand" href="index.html">Tropis <span>Animals</span></a>
-						<div class="leaf">
-							<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
-						</div>
+<div class="banner2">
+		<nav class="navbar navbar-default">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+				<div class="logo">
+					<a class="navbar-brand" href="/">Tropis <span>Animals</span></a>
+					<div class="leaf">
+						<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
 					</div>
 				</div>
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-				 <ul class="nav navbar-nav">
-               <li><a href="/">Beranda</a></li>
-					<li class="active"><a href="/profile">Profil</a></li>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+			 	<ul class="nav navbar-nav">
+					<li><a href="/">Beranda</a></li>
+					<li class="active"><a href="/profile">Tentang</a></li>
 					<li><a href="/berita">Berita</a></li>
 					<li><a href="/galeri">Galeri</a></li>
 					<li><a href="/kontak">Kontak</a></li>
-				  </ul>
-				</div><!-- /.navbar-collapse -->
-			</nav>
-		</div>
-	</div>
-	</div>
-<!-- //header -->
-<!-- about -->
-	<div class="about">
-		<div class="container">
-			<div class="about-grids">
-				<div class="col-md-4 about-grid">
-					<h3>At vero eos et accusamus et odio reprehenderit</h3>
-					<img src="images/4.jpg" alt=" " class="img-responsive" />
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-						sed do eiusmod tempor incididunt ut labore et dolore magna
-						aliqua.</p>
-				</div>
-				<div class="col-md-4 about-grid">
-					<h3>Neque porro quisquam est, qui dolorem ipsum</h3>
-					<img src="images/13.jpg" alt=" " class="img-responsive" />
-						<p class="commodo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-						sed do eiusmod tempor incididunt ut labore et dolore magna
-						aliqua.</p>
-				</div>
-				<div class="col-md-4 about-grid">
-					<h3>Excepteur sint occaecat cupidatat non proident</h3>
-					<img src="images/15.jpg" alt=" " class="img-responsive" />
-						<p class="sint">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-						sed do eiusmod tempor incididunt ut labore et dolore magna
-						aliqua.</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-<!-- why-choose -->
-	<div class="why-choose">
-		<div class="container">
-			<h3>Excepteur sint occaecat</h3>
-			<div class="why-choose-grids">
-				<div class="col-md-6 why-choose-grid">
-					<div class="why-choose-grid-hover">
-						<p>dolore eu fugiat pariatur</p>
-					</div>
-					<div class="why-choose-grds">
-						<div class="col-xs-5 why-choose-grd">
-							<img src="images/16.jpg" alt=" " class="img-responsive" />
-						</div>
-						<div class="col-xs-7 why-choose-grd-right">
-							<h4>aliquip ex ea commodo occaecat proident</h4>
-							<p>Excepteur sint occaecat 
-								cupidatat non proident.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="col-md-6 why-choose-grid">
-					<div class="why-choose-grid-hover">
-						<p>dolore eu fugiat pariatur</p>
-					</div>
-					<div class="why-choose-grds">
-						<div class="col-xs-5 why-choose-grd">
-							<img src="images/10.jpg" alt=" " class="img-responsive" />
-						</div>
-						<div class="col-xs-7 why-choose-grd-right">
-							<h4>aliquip ex ea commodo occaecat proident</h4>
-							<p>Excepteur sint occaecat 
-								cupidatat non proident.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="why-choose-grids">
-				<div class="col-md-6 why-choose-grid">
-					<div class="why-choose-grid-hover">
-						<p>dolore eu fugiat pariatur</p>
-					</div>
-					<div class="why-choose-grds">
-						<div class="col-xs-5 why-choose-grd">
-							<img src="images/11.jpg" alt=" " class="img-responsive" />
-						</div>
-						<div class="col-xs-7 why-choose-grd-right">
-							<h4>aliquip ex ea commodo occaecat proident</h4>
-							<p>Excepteur sint occaecat 
-								cupidatat non proident.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="col-md-6 why-choose-grid">
-					<div class="why-choose-grid-hover">
-						<p>dolore eu fugiat pariatur</p>
-					</div>
-					<div class="why-choose-grds">
-						<div class="col-xs-5 why-choose-grd">
-							<img src="images/13.jpg" alt=" " class="img-responsive" />
-						</div>
-						<div class="col-xs-7 why-choose-grd-right">
-							<h4>aliquip ex ea commodo occaecat proident</h4>
-							<p>Excepteur sint occaecat 
-								cupidatat non proident.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-<!-- //why-choose -->
-<!-- testimonials -->
-	<div class="testimonials">
-		<div class="container">
-			<h3>Testimonials</h3>
-			<p class="aut">Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-				accusantium doloremque laudantium. repudiandae sint et molestiae non recusandae.
-				Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis 
-				voluptatibus maiores alias</p>
-	<!-- Slider-starts-Here -->
-				<script src="js/responsiveslides.min.js"></script>
-				 <script>
-				    // You can also use "$(window).load(function() {"
-				    $(function () {
-				      // Slideshow 4
-				      $("#slider3").responsiveSlides({
-				        auto: true,
-				        pager: false,
-				        nav: true,
-				        speed: 500,
-				        namespace: "callbacks",
-				        before: function () {
-				          $('.events').append("<li>before event fired.</li>");
-				        },
-				        after: function () {
-				          $('.events').append("<li>after event fired.</li>");
-				        }
-				      });
-				
-				    });
-				  </script>
-			<!--//End-slider-script -->
-			<div  id="top" class="callbacks_container wow fadeInUp" data-wow-delay="0.5s">
-				<ul class="rslides" id="slider3">
-					<li>
-						<div class="testimonials-grids">
-							<div class="testimonials-grid-left">
-								<img src="images/1.png" alt=" " />
-							</div>
-							<div class="testimonials-grid-right">
-								<p>Ms.Alor Ayyer<span> Photographer</span></p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</li>
-					<li>
-						<div class="testimonials-grids">
-							<div class="testimonials-grid-left">
-								<img src="images/2.png" alt=" " />
-							</div>
-							<div class="testimonials-grid-right">
-								<p>Mr.john williums<span> Photographer</span></p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</li>
-					<li>
-						<div class="testimonials-grids">
-							<div class="testimonials-grid-left">
-								<img src="images/3.png" alt=" " />
-							</div>
-							<div class="testimonials-grid-right">
-								<p>Ms.Dolly Brown<span> Photographer</span></p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</li>
 				</ul>
+			</div><!-- /.navbar-collapse -->
+			<div class="banner-info">
+				<h1>Tentang Kami</h1>
 			</div>
+		</nav>
+</div>
+<!-- //header -->
+<!-- boostrap-icons -->
+<div class="boostrap-icons">
+		<div class="container">
+			<div class="col-md-6 boostrap-icons-left">
+				<div class="boostrap-icons-grids">
+					<div class="col-xs-10 boostrap-icons-grid">
+						<h2> Tropis Animals</h2>
+						<p class="tentang">Hewan Tropis merupakan hewan yang memiliki keunikannya tersendiri.
+						Hutan hujan tropis saat ini hanya memiliki luas yang terbilang kecil di permukaan bumi. Luas 
+						hutan ini hanya meliputi 6% dari luas daratan yang ada di bumi. Meski terbilang cukup kecil, 
+						hutan hujan ini menyimpan lebih dari setengah jumlah spesies hewan dan tumbuhan yang ada di dunia.
+						Hewan Tropis merupakan hewan yang memiliki keunikannya tersendiri.
+						Hutan hujan tropis saat ini hanya memiliki luas yang terbilang kecil di permukaan bumi. Luas 
+						hutan ini hanya meliputi 6% dari luas daratan yang ada di bumi. Meski terbilang cukup kecil, 
+						hutan hujan ini menyimpan lebih dari setengah jumlah spesies hewan dan tumbuhan yang ada di dunia.
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="col-md-6 boostrap-icons-right">
+				<img src="assets/img/kyaw-tun-_YIX48_4hgs-unsplash.png" alt=" " class="img-responsive" style="width: 450px;"/>
+			</div>
+			<div class="col-xs-10 boostrap-icons-grid">
+				<h2>Visi</h2>
+					<p class="tentang">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
+						a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but 
+						also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with 
+						the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+						like Aldus PageMaker including versions of Lorem Ipsum.
+					</p>
+			</div>
+			<div class="col-xs-10 boostrap-icons-grid">
+				<h2>Misi</h2>
+					<p class="tentang">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
+						a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but 
+						also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with 
+						the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+						like Aldus PageMaker including versions of Lorem Ipsum.
+					</p>
+			</div>
+			<div class="clearfix"> </div>
 		</div>
 	</div>
-<!-- //testimonials -->
+<!-- //boostrap-icons -->
 <!-- //about -->
 <!-- footer -->
+<div class="copy">
 	<div class="footer">
 		<div class="footer-grids">
 		  <div class="container">
@@ -290,9 +159,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 </div>
 		</div>
 	</div>
-	<div class="copy">
 		 <p>Copyright © 2015 Wild Nature. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
-	</div>
+</div>
 <!-- //footer -->
 <!-- for bootstrap working -->
 		<script src="assets/assets2/js/bootstrap.js"> </script>
