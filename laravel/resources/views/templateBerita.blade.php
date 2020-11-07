@@ -80,8 +80,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-6 boostrap-icons-left">
 				<div class="boostrap-icons-grids">
 					<div class="col-xs-10 boostrap-icons-grid">
-						<h2>{{ $beritaBaru['judul'] }}</h2>
-						<p class="tentang">{{ $beritaBaru['konten'] }}</p>
+						<h2>hello world</h2>
+						<p class="tentang">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga eos blanditiis neque iste, earum, rerum sunt accusantium recusandae, maxime est dolores eaque. Rerum commodi accusamus vitae, saepe fugit perferendis.</p>
 					</div>
 					<div class="clearfix"> </div>
 					<br><br>

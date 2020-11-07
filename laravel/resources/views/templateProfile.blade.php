@@ -67,8 +67,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-6 boostrap-icons-left">
 				<div class="boostrap-icons-grids">
 					<div class="col-xs-10 boostrap-icons-grid">
-						<h2>{{ $profileBaru['judul'] }}</h2>
-						<p class="tentang">{{ $profileBaru['Deskripsi'] }}</p>
+					<h2>Hello world</h2>
+						<p class="tentang">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus odio ab aliquid, alias tenetur explicabo eum consequuntur deleniti consequatur, dicta non inventore quisquam dignissimos est optio rerum. Atque, aliquid necessitatibus?</p>
+						<!-- <h2>{{ $profileBaru['judul'] }}</h2>
+						<p class="tentang">{{ $profileBaru['Deskripsi'] }}</p> -->
 					</div>
 					<div class="clearfix"> </div>
 				</div>

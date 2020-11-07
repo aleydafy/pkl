@@ -38,40 +38,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 <body>
 <!-- header -->
-	<div class="header">
-	<div class="container">
-		<div class="header-nav">
-			<nav class="navbar navbar-default">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-					<div class="logo">
-						<a class="navbar-brand" href="index.html">Tropis <span>Animals</span></a>
-						<div class="leaf">
-							<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
-						</div>
+<div class="banner2">
+		<nav class="navbar navbar-default">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+				<div class="logo">
+					<a class="navbar-brand" href="/">Tropis <span>Animals</span></a>
+					<div class="leaf">
+						<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
 					</div>
 				</div>
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-				 <ul class="nav navbar-nav">
-               <li><a href="/">Beranda</a></li>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+			 	<ul class="nav navbar-nav">
+					<li><a href="/">Beranda</a></li>
 					<li><a href="/profile">Tentang</a></li>
 					<li><a href="/berita">Berita</a></li>
 					<li class="active"><a href="/galeri">Galeri</a></li>
 					<li><a href="/kontak">Kontak</a></li>
-				  </ul>
-				</div><!-- /.navbar-collapse -->
-			</nav>
-		</div>
-	</div>
-	</div>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+			<div class="banner-info">
+				<h1>Galeri</h1>
+			</div>
+		</nav>
+</div>
 <!-- //header -->
 <!-- gallery -->
 	<div class="gallery">

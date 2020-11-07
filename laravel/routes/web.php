@@ -17,6 +17,8 @@ use App\Http\Controllers\UserController;
 */
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/crud', [App\Http\Controllers\crudController::class, 'index']);
+
 
 Route::resource('galeri', App\Http\Controllers\GaleriController::class);
 Route::get('galeri/{id}/edit/', [App\Http\Controllers\GaleriController::class, 'edit']);
@@ -32,3 +34,5 @@ Route::get('dashboardProfile/{id}/edit/', [App\Http\Controllers\DashboardProfile
 
 Route::resource('dashboardBerita', App\Http\Controllers\DashboardBeritaController::class);
 Route::get('dashboardBerita/{id}/edit/', [App\Http\Controllers\DashboardBeritaController::class, 'edit']);
+
+Route::get('/kontak', [App\Http\Controllers\kontakController::class, 'index']);

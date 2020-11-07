@@ -114,8 +114,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="boostrap-icons-grids">
 					<div class="col-xs-10 boostrap-icons-grid">
 						<h3>TENTANG KAMI</h3>
-						<h2>{{ $profileBaru['judul']}}</h2>
-						<p class="tentang">{{ $profileBaru['Deskripsi'] }}</p>
+						<h2>hello world </h2>
+						<p class="tentang">hello world</p>
 					</div>
 					<div class="clearfix"> </div>
 					<br><br>
