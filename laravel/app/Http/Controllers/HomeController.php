@@ -9,5 +9,12 @@ use App\Models\Galeri;
 
 class HomeController extends Controller
 {
-    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+    public function index()
+    {
+        $profileBaru = Profile::orderBy('created_at', 'desc')->limit(1)->first();
+        $beritaBaru = Berita::orderBy('created_at', 'desc')->limit(6)->get();
+        $galeriBaru = Galeri::orderBy('created_at', 'desc')->limit(6)->get();
+
+        return view('index', compact('profileBaru', 'beritaBaru', 'galeriBaru'));
+    }
 }

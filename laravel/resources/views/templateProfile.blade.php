@@ -67,16 +67,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-6 boostrap-icons-left">
 				<div class="boostrap-icons-grids">
 					<div class="col-xs-10 boostrap-icons-grid">
-						<h2> Tropis Animals</h2>
-						<p class="tentang">Hewan Tropis merupakan hewan yang memiliki keunikannya tersendiri.
-						Hutan hujan tropis saat ini hanya memiliki luas yang terbilang kecil di permukaan bumi. Luas 
-						hutan ini hanya meliputi 6% dari luas daratan yang ada di bumi. Meski terbilang cukup kecil, 
-						hutan hujan ini menyimpan lebih dari setengah jumlah spesies hewan dan tumbuhan yang ada di dunia.
-						Hewan Tropis merupakan hewan yang memiliki keunikannya tersendiri.
-						Hutan hujan tropis saat ini hanya memiliki luas yang terbilang kecil di permukaan bumi. Luas 
-						hutan ini hanya meliputi 6% dari luas daratan yang ada di bumi. Meski terbilang cukup kecil, 
-						hutan hujan ini menyimpan lebih dari setengah jumlah spesies hewan dan tumbuhan yang ada di dunia.
-						</p>
+						<h2>{{ $profileBaru['judul'] }}</h2>
+						<p class="tentang">{{ $profileBaru['Deskripsi'] }}</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -84,26 +76,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-6 boostrap-icons-right">
 				<img src="assets/img/kyaw-tun-_YIX48_4hgs-unsplash.png" alt=" " class="img-responsive" style="width: 450px;"/>
 			</div>
+			@foreach($data as $row)
 			<div class="col-xs-10 boostrap-icons-grid">
-				<h2>Visi</h2>
-					<p class="tentang">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
-						a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but 
-						also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with 
-						the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-						like Aldus PageMaker including versions of Lorem Ipsum.
-					</p>
+				<h2>{{ $row->judul }}</h2>
+				<p class="tentang">{{ $row->Deskripsi }}</p>
 			</div>
-			<div class="col-xs-10 boostrap-icons-grid">
-				<h2>Misi</h2>
-					<p class="tentang">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
-						a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but 
-						also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with 
-						the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-						like Aldus PageMaker including versions of Lorem Ipsum.
-					</p>
-			</div>
+			@endforeach
 			<div class="clearfix"> </div>
 		</div>
 	</div>

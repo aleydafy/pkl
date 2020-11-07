@@ -31,6 +31,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   });
 </script>
 <!-- //pop-up-box -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
@@ -38,34 +42,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 <body>
 <!-- banner -->
-	<div class="banner">
-		<nav class="navbar navbar-default">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			  </button>
-				<div class="logo">
-					<a class="navbar-brand" href="/">Tropis <span>Animals</span></a>
-					<div class="leaf">
-						<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
-					</div>
+<div class="banner">
+	<nav class="navbar navbar-expand-lg navbar-light bg-transparant navbar-default">
+		<div class="logo">
+			<a class="navbar-brand" href="/">Tropis <span>Animals</span></a>
+				<div class="leaf">
+					<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
 				</div>
-			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-			 	<ul class="nav navbar-nav">
-					<li class="active"><a href="/">Beranda</a></li>
-					<li><a href="/profile">Tentang</a></li>
-					<li><a href="/berita">Berita</a></li>
-					<li><a href="/galeri">Galeri</a></li>
-					<li><a href="/kontak">Kontak</a></li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</nav>
+		</div>
+		<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">Beranda</a></li>
+				<li><a href="/profile">Tentang</a></li>
+				<li><a href="/berita">Berita</a></li>
+				<li><a href="/galeri">Galeri</a></li>
+				<li><a href="/kontak">Kontak</a></li>
+			</ul>
+		</div>
+	</nav>
 		<div class="container">
 			<section class="slider">
 				<div class="flexslider">
@@ -120,12 +114,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="boostrap-icons-grids">
 					<div class="col-xs-10 boostrap-icons-grid">
 						<h3>TENTANG KAMI</h3>
-						<h2> Membangun Komunitas Hewan</h2>
-						<p class="tentang">Hewan Tropis merupakan hewan yang memiliki keunikannya tersendiri.
-						Hutan hujan tropis saat ini hanya memiliki luas yang terbilang kecil di permukaan bumi. Luas 
-						hutan ini hanya meliputi 6% dari luas daratan yang ada di bumi. Meski terbilang cukup kecil, 
-						hutan hujan ini menyimpan lebih dari setengah jumlah spesies hewan dan tumbuhan yang ada di dunia.
-						</p>
+						<h2>{{ $profileBaru['judul']}}</h2>
+						<p class="tentang">{{ $profileBaru['Deskripsi'] }}</p>
 					</div>
 					<div class="clearfix"> </div>
 					<br><br>
@@ -198,67 +188,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="boostrap-icons">
 	<div class="container">
 		<div class="boostrap-icons-grids">
-			<div class="col-xs-10 boostrap-icons-grid">
-				<h3>BERITA</h3>
-				<h2>Baca Berita Terbaru Kami <br> Dalam Tropis Animals</h2><br>
-			</div><br>
-			<div class="news-grids">
-				<div class="col-md-4 news-grid">
-					<div class="news-grid1">
-						<a class="mask" href="images/4.jpg"><img src="assets/img/rick-l-037fCBgZB10-unsplash.png" alt=" " class="img-responsive" style="width: 450px;"/></a>
+				<h3 style="font-size: 15px;margin: 0;text-transform: capitalize;color: #537bc4;font-family: 'Abril Fatface', cursive;">BERITA</h3>
+				<h2 style="color: black;font-size: 25px;margin: 1em 0 0;font-family: 'Abril Fatface', cursive;">Baca Berita Terbaru Kami <br> Dalam Tropis Animals</h2><br>
+			<div class="row">
+				@foreach($beritaBaru as $row)
+				<div class="col-md-4 mb-3">
+					<div class="card" style="width: 20rem;">
+  						<img src="{{ asset('assets/img/'.$row->gambar) }}" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">{{ $row->judul }}</h5>
+							<p class="card-text">{{ $row->konten }}</p>
+						</div>
 					</div>
-						<h4>Apa Kabar Kebun Binatang Saat Wabah Covid 19?</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and 
-						typesetting industry. Lorem Ipsum has been the industry's 
-						standard dummy text ever since...</p>
 				</div>
-				<div class="col-md-4 news-grid">
-					<div class="news-grid1">
-						<a class="mask" href="images/5.jpg"><img src="assets/img/hans-veth-o33FMDaXJS8-unsplash.png" alt=" " class="img-responsive" /></a>
-					</div>
-						<h4>Anugerah dari Hutan Indonesia</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and 
-						typesetting industry. Lorem Ipsum has been the industry's 
-						standard dummy text ever since...</p>
-				</div>
-				<div class="col-md-4 news-grid">
-					<div class="news-grid1">
-						<a class="mask" href="images/6.jpg"><img src="assets/img/ronald-gijezen-7h06P9UKhYY-unsplash.png" alt=" " class="img-responsive" /></a>
-					</div>
-						<h4>10 Hewan Herbivora Yang Berbahaya</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and 
-						typesetting industry. Lorem Ipsum has been the industry's 
-						standard dummy text ever since...</p>
-				</div>
-			</div>
-			<div class="news-grids">
-				<div class="col-md-4 news-grid"><br>
-					<div class="news-grid1">
-						<a class="mask" href="images/4.jpg"><img src="assets/img/smit-patel-dGMcpbzcq1I-unsplash.png" alt=" " class="img-responsive"/></a>
-					</div>
-						<h4>4 Penyakit yang Ditularkan Hewan ke Manusia</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and 
-						typesetting industry. Lorem Ipsum has been the industry's 
-						standard dummy text ever since...</p>
-				</div>
-				<div class="col-md-4 news-grid"><br>
-					<div class="news-grid1">
-						<a class="mask" href="images/5.jpg"><img src="assets/img/TERUMBU-KARANG (1).png" alt=" " class="img-responsive" style="width: 400px; height: 170px;"/></a>
-					</div>
-						<h4>Terumbu Karang:Pengertian, Jenis, Sebaran, dan Masalah</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and 
-						typesetting industry. Lorem Ipsum has been the industry's 
-						standard dummy text ever since...</p>
-				</div>
-				<div class="col-md-4 news-grid"><br>
-					<div class="news-grid1">
-						<a class="mask" href="images/6.jpg"><img src="assets/img/vladimir-kudinov-vmlJcey6HEU-unsplash.png" alt=" " class="img-responsive" style="width: 400px; height: 170px;"/></a>
-					</div>
-						<h4>Ternyata, Tanduk Rusa Berasal dari Sel Kanker Tulang</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and 
-						typesetting industry. Lorem Ipsum has been the industry's 
-						standard dummy text ever since...</p>
-				</div><br>
+				@endforeach
 			</div>
 		</div>
 	</div>
@@ -267,16 +210,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- boostrap-icons -->
 <div class="boostrap-icons">
 		<div class="container">
-			<div class="col-md-6 boostrap-icons-left">
 				<div class="boostrap-icons-grids">
 					<div class="col-xs-10 boostrap-icons-grid">
 						<h3>GALERI</h3>
-						<h2>Lihat Lebih Banyak Hewan Tropis Pada Galeri Kami</h2>
+						<h2>Lihat Lebih Banyak Hewan Tropis <br> Pada Galeri Kami</h2><br>
 					</div>
 				</div>
-			</div>
-		</div>
+				@foreach($galeriBaru as $row)
+				<div class="col-md-2">
+					<div class="card" style="width: 20rem;">
+						<img src="{{ asset('assets/img/'.$row->gambar) }}" class="card-img-top" alt="...">
+					</div>
+				</div>
+				@endforeach
 	</div>
+</div>
 <!-- //boostrap-icons -->
 <!-- footer -->
 

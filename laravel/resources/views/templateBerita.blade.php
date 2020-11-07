@@ -80,14 +80,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-6 boostrap-icons-left">
 				<div class="boostrap-icons-grids">
 					<div class="col-xs-10 boostrap-icons-grid">
-						<h2>10 Hewan Herbivora Yang Berbahaya</h2>
-						<p class="tentang">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
-						a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but 
-						also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with 
-						the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-						like Aldus PageMaker including versions of Lorem Ipsum.
-						</p>
+						<h2>{{ $beritaBaru['judul'] }}</h2>
+						<p class="tentang">{{ $beritaBaru['konten'] }}</p>
 					</div>
 					<div class="clearfix"> </div>
 					<br><br>
@@ -107,63 +101,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-xs-10 boostrap-icons-grid">
 				<h2>Berita Lainnya</h2><br>
 			</div><br>
-			<div class="news-grids">
-				<div class="col-md-4 news-grid">
-					<div class="news-grid1">
-						<a class="mask" href="images/4.jpg"><img src="assets/img/rick-l-037fCBgZB10-unsplash.png" alt=" " class="img-responsive" style="width: 450px;"/></a>
+			<div class="row">
+				@foreach($data as $row)
+				<div class="col-md-4 mb-3">
+					<div class="card" style="width: 20rem;">
+  						<img src="{{ asset('assets/img/'.$row->gambar) }}" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">{{ $row->judul }}</h5>
+							<p class="card-text">{{ $row->konten }}</p>
+						</div>
 					</div>
-						<h4>Apa Kabar Kebun Binatang Saat Wabah Covid 19?</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and 
-						typesetting industry. Lorem Ipsum has been the industry's 
-						standard dummy text ever since...</p>
 				</div>
-				<div class="col-md-4 news-grid">
-					<div class="news-grid1">
-						<a class="mask" href="images/5.jpg"><img src="assets/img/hans-veth-o33FMDaXJS8-unsplash.png" alt=" " class="img-responsive" /></a>
-					</div>
-						<h4>Anugerah dari Hutan Indonesia</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and 
-						typesetting industry. Lorem Ipsum has been the industry's 
-						standard dummy text ever since...</p>
-				</div>
-				<div class="col-md-4 news-grid">
-					<div class="news-grid1">
-						<a class="mask" href="images/6.jpg"><img src="assets/img/ronald-gijezen-7h06P9UKhYY-unsplash.png" alt=" " class="img-responsive" /></a>
-					</div>
-						<h4>10 Hewan Herbivora Yang Berbahaya</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and 
-						typesetting industry. Lorem Ipsum has been the industry's 
-						standard dummy text ever since...</p>
-				</div>
-			</div>
-			<div class="news-grids">
-				<div class="col-md-4 news-grid"><br>
-					<div class="news-grid1">
-						<a class="mask" href="images/4.jpg"><img src="assets/img/smit-patel-dGMcpbzcq1I-unsplash.png" alt=" " class="img-responsive"/></a>
-					</div>
-						<h4>4 Penyakit yang Ditularkan Hewan ke Manusia</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and 
-						typesetting industry. Lorem Ipsum has been the industry's 
-						standard dummy text ever since...</p>
-				</div>
-				<div class="col-md-4 news-grid"><br>
-					<div class="news-grid1">
-						<a class="mask" href="images/5.jpg"><img src="assets/img/TERUMBU-KARANG (1).png" alt=" " class="img-responsive" style="width: 400px; height: 170px;"/></a>
-					</div>
-						<h4>Terumbu Karang:Pengertian, Jenis, Sebaran, dan Masalah</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and 
-						typesetting industry. Lorem Ipsum has been the industry's 
-						standard dummy text ever since...</p>
-				</div>
-				<div class="col-md-4 news-grid"><br>
-					<div class="news-grid1">
-						<a class="mask" href="images/6.jpg"><img src="assets/img/vladimir-kudinov-vmlJcey6HEU-unsplash.png" alt=" " class="img-responsive" style="width: 400px; height: 170px;"/></a>
-					</div>
-						<h4>Ternyata, Tanduk Rusa Berasal dari Sel Kanker Tulang</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and 
-						typesetting industry. Lorem Ipsum has been the industry's 
-						standard dummy text ever since...</p>
-				</div><br>
+				@endforeach
 			</div>
 		</div>
 	</div>
