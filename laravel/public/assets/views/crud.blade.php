@@ -1,1 +1,1 @@
-@extends('includecrud');
+@extends('includeCrud')

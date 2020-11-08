@@ -8,6 +8,6 @@ class crudController extends Controller
 {
     public function index()
     {
-        return view('crud');
+        return view('Crud');
     }
 }
