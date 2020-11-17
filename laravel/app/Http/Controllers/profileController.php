@@ -6,6 +6,15 @@ use Illuminate\Http\Request;
 use App\Models\Profile;
 Use Illuminate\Http\Response;
 
+// class profileController extends Controller
+// {
+//     public function index() {
+//        $data = Profile::first();
+
+//        return view('profile', ['profile' => $data]);
+//     }
+// }
+
 class profileController extends Controller
 {
     public function index()

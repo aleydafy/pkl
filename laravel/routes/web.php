@@ -17,7 +17,8 @@ use App\Http\Controllers\UserController;
 */
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/crud', [App\Http\Controllers\crudController::class, 'index']);
+Route::get('/crud', [App\Http\Controllers\CrudController::class, 'index']);
+Route::get('/crudEdit', [App\Http\Controllers\CrudController::class, 'edit']);
 
 
 Route::resource('galeri', App\Http\Controllers\GaleriController::class);

@@ -13,8 +13,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Wild Nature Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script> -->
 <!-- //for-mobile-apps -->
 <link href="assets/assets2/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="assets/assets2/css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -67,10 +67,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-6 boostrap-icons-left">
 				<div class="boostrap-icons-grids">
 					<div class="col-xs-10 boostrap-icons-grid">
-					<h2>Hello world</h2>
-						<p class="tentang">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus odio ab aliquid, alias tenetur explicabo eum consequuntur deleniti consequatur, dicta non inventore quisquam dignissimos est optio rerum. Atque, aliquid necessitatibus?</p>
-						<!-- <h2>{{ $profileBaru['judul'] }}</h2>
-						<p class="tentang">{{ $profileBaru['Deskripsi'] }}</p> -->
+					@foreach ($data as $row)
+					<h2>{{ $row->judul }}</h2>
+					<p class="tentang">{{ $row->deskripsi }}</p>
+					@endforeach	
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -78,12 +78,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-6 boostrap-icons-right">
 				<img src="assets/img/kyaw-tun-_YIX48_4hgs-unsplash.png" alt=" " class="img-responsive" style="width: 450px;"/>
 			</div>
-			@foreach($data as $row)
-			<div class="col-xs-10 boostrap-icons-grid">
-				<h2>{{ $row->judul }}</h2>
-				<p class="tentang">{{ $row->Deskripsi }}</p>
-			</div>
-			@endforeach
 			<div class="clearfix"> </div>
 		</div>
 	</div>

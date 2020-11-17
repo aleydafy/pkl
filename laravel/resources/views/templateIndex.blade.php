@@ -39,7 +39,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href='//fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
 </head>
-	
+
 <body>
 <!-- banner -->
 <div class="banner">
@@ -114,8 +114,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="boostrap-icons-grids">
 					<div class="col-xs-10 boostrap-icons-grid">
 						<h3>TENTANG KAMI</h3>
-						<h2>hello world </h2>
-						<p class="tentang">hello world</p>
+						<h2>hello world</h2>
+						<p class="tentang">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque nihil quam, possimus animi voluptatem consequatur. Fugiat perspiciatis expedita ipsam voluptate maxime architecto doloremque nemo saepe, aspernatur ducimus repudiandae nihil obcaecati?</p>
 					</div>
 					<div class="clearfix"> </div>
 					<br><br>
@@ -209,24 +209,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //boostrap-icons -->
 <!-- boostrap-icons -->
 <div class="boostrap-icons">
-		<div class="container">
-				<div class="boostrap-icons-grids">
-					<div class="col-xs-10 boostrap-icons-grid">
-						<h3>GALERI</h3>
-						<h2>Lihat Lebih Banyak Hewan Tropis <br> Pada Galeri Kami</h2><br>
+	<div class="container ">
+		<div class="boostrap-icons-grids">
+				<h3 style="font-size: 15px;margin: 0;text-transform: capitalize;color: #537bc4;font-family: 'Abril Fatface', cursive;">GALERI</h3>
+				<h2 style="color: black;font-size: 25px;margin: 1em 0 0;font-family: 'Abril Fatface', cursive;">lihat Lebih Banyak Hewan Tropis <br> Pada Galeri Kami</h2><br>
+			<center>
+				<div class="row">
+					@foreach($beritaBaru as $row)
+					<div class="col-md-auto mb-3">
+						<div class="">
+							  <img src="{{ asset('assets/img/'.$row->gambar) }}" class="img-fluid" alt="...">
+						</div>
 					</div>
+					@endforeach
 				</div>
-				@foreach($galeriBaru as $row)
-				<div class="col-md-2">
-					<div class="card" style="width: 20rem;">
-						<img src="{{ asset('assets/img/'.$row->gambar) }}" class="card-img-top" alt="...">
-					</div>
-				</div>
-				@endforeach
+			</center>
+		</div>
 	</div>
 </div>
-<!-- //boostrap-icons -->
-<!-- footer -->
 
 <div class="copy">
 	<div class="footer">
